@@ -10,7 +10,6 @@ Você pode instalar o pacote diretamente do GitHub usando o seguinte comando:
 pip install git+https://github.com/mggmauricio/mqtt_vision.git
 ```
 
-Substitua `seuusuario` pelo seu nome de usuário do GitHub.
 
 ## Estrutura do Pacote
 
