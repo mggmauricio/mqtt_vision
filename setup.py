@@ -1,20 +1,14 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="mqtt_vision",
+    name="mqtt_multicast",
     version="0.1",
     packages=find_packages(),
     install_requires=[
         "paho-mqtt",
-        "protobuf",
     ],
-    entry_points={
-        "console_scripts": [
-            "mqtt-vision=udp_receiver:main",  # Altere conforme necessário
-        ],
-    },
-    description="A package for handling MQTT communication for vision data.",
+    description="A library to receive multicast data and send it via MQTT.",
     author="Mauricio Godoy",
     author_email="mauricio.godoy@acad.ufsm.br",
-    url="https://github.com/nggmauricio/mqtt_vision",  # Altere para o URL do seu repositório
+    url="https://github.com/mggmauricio/mqtt_vision",  # Altere para o seu repositório
 )
